@@ -62,3 +62,14 @@ A modern, Lua-based Neovim configuration built for speed and convenience.
 
 - **Update Plugins**: Run `:Lazy` and press `U`.
 - **Install/Update LSPs**: Run `:Mason`.
+
+## Extras
+
+### iTerm2 Theme
+A dynamic profile for iTerm2 is included in this repository: `iterm-rose-pine.json`.
+To use it:
+1. Copy it to your iTerm2 Dynamic Profiles folder:
+   ```bash
+   cp iterm-rose-pine.json ~/Library/Application\ Support/iTerm2/DynamicProfiles/
+   ```
+2. Restart iTerm2 or reload profiles.
